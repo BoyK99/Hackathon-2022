@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/335a0c3dec.js" crossorigin="anonymous"></script>
+
+    <title>Contact</title>
+</head>
+    <body>
+        <!--  Searchbar  -->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <span class="icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html#best-products">
+                        Best verkocht
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Producten
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="index.html#chocolade">
+                                Chocolade kruidnoten
+                            </a>
+                            <a class="navbar-item" href="index.html#kruidnoten">
+                                Kruidnoten
+                            </a>
+                            <a class="navbar-item" href="index.html#speciaal">
+                                Speciale kruidnoten
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item">
+                        <input class="input" type="text" placeholder="Zoek product">
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a class="navbar-item" href="contact.html">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!--  Contact form  -->
+        <div class="section">
+          <div class="container ">
+                <h2 class="title is-2 is-capitalized">Mail ons</h2>
+                <form action="javascript:alert('werkt niet')" method="post">
+                    <div class="field">
+                        <label for="name" class="label is-size-4 has-text-weight-light"></label>
+                        <div class="control has-icons-left">
+                            <input type="text" name="name" id="name" class="input" placeholder="Naam" autofocus>
+                            <span class="icon is-left">
+                            <i class="fa fa-user"></i>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="email" class="label is-size-4 has-text-weight-light"></label>
+                        <div class="control has-icons-left">
+                            <input type="email" name="email" id="email" class="input" placeholder="Email">
+                            <span class="icon is-left">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="message" class="label is-size-4 has-text-weight-light"></label>
+                        <textarea name="message" id="message" rows="5" class="textarea is-medium" placeholder="Bericht"></textarea>
+                    </div>
+                    <button type="submit" class="button is-success is-size-5">Verzend</button>
+                </form>
+            </div>
+        </div>
+
+        <!--  Footer  -->
+
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Shopper webbie</strong> by <a href="https://github.com/BoyK99">Boy Kik</a>.
+                    The website was made for the Hackathon - 9 nov 2022</a>.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

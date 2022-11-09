@@ -6,9 +6,268 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
         <link rel="stylesheet" href="css/css.css">
-        <title></title>
+        <script src="js/script.js"></script>
+        <script src="https://kit.fontawesome.com/335a0c3dec.js" crossorigin="anonymous"></script>
+        <title>Home</title>
     </head>
     <body>
-        test
+        <!--  Video section  -->
+        <section class="hero is-halfheight back-video">
+            <div class="is-transparent">
+<!--                <video autoplay muted loop>-->
+<!--                    <source src="video/video.mp4" type="video/mp4">-->
+<!--                </video>-->
+                <div class="slide">
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/verschil-pepernoten-kruidnoten-1575451597.jpg">
+                </div>
+                <div class="slide">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgiJN6sP0l-hNk0OLGDwBzjAy6ULGOlPHc1g&usqp=CAU">
+                </div>
+                <div class="slide">
+                    <img src="https://www.24kitchen.nl/files/styles/social_media_share/public/2020-11/kruidnoten.jpg?itok=oCr34T4t">
+                </div>
+            </div>
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <p class="title">
+                        Kruidnoten
+                    </p>
+                    <p class="subtitle">
+                        De lekkerste kruidnoten zijn hier te vinden!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--  Searchbar  -->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <span class="icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="#best-products">
+                        Best verkocht
+                    </a>
+                     <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Producten
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="#chocolade">
+                                Chocolade kruidnoten
+                            </a>
+<!--                            <hr class="navbar-divider">-->
+                            <a class="navbar-item" href="#kruidnoten">
+                                Kruidnoten
+                            </a>
+                            <a class="navbar-item" href="#speciaal">
+                                Speciale kruidnoten
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item">
+                        <input class="input" type="text" placeholder="Zoek product">
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a class="navbar-item" href="contact.html">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!--  Product section  -->
+        <section class="section" id="best-products">
+            <div class="container">
+                <h1 class="title is-2 has-text-centered">Best verkochte kruidnoten</h1>
+                <div class="columns is-multiline is-centered">
+                    <div class="column is-half">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://static.ah.nl/dam/product/AHI_43545239383730303939?revLabel=1&rendition=800x800_JPG_Q90&fileType=binary" alt="AH choco-kruid">
+                            </figure>
+                            <span class="is-size-4">AH Chocolade Kruidnoten</span>
+                        </div>
+                    </div>
+                    <div class="column is-half">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://static.ah.nl/dam/product/AHI_43545239383730313131?revLabel=1&rendition=800x800_JPG_Q90&fileType=binary" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">AH Karamel Kruidnoten</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="columns is-multiline is-centered">
+                    <div class="column is-half">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://static.ah.nl/dam/product/AHI_43545239383838333735?revLabel=1&rendition=800x800_JPG_Q90&fileType=binary" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">AH Strooigoed</span>
+                        </div>
+                    </div>
+                    <div class="column is-half">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">AH Chocolade Kruidnoten</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  Chocolade -->
+        <section id="chocolade" class="mb-5">
+            <div class="container">
+                <h1 class="title is-3 has-text-centered">Chocolade kruidnoten</h1>
+                <div class="columns is-centered">
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://static.ah.nl/dam/product/AHI_43545239383838333735?revLabel=1&rendition=800x800_JPG_Q90&fileType=binary" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">AH Strooigoed</span>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://www.glutenvrijewebshop.nl/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/b/o/bonvita-vegan-chocolade-kruidnoten-mix-glutenvrij.jpg" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">Vegan Chocolade Kruidnoten</span>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://media.s-bol.com/JN9A0rDpLpk2/987x1200.jpg" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">Smikkelbeer Chocolade Kruidnoten</span>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://static-images.jumbo.com/product_images/121020210523_443412ZK-1_360x360_2.png" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">Milka Chocolade Kruidnoten</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  Kruidnoten -->
+        <section id="kruidnoten" class="mb-5">
+            <div class="container">
+                <h1 class="title is-3 has-text-centered">Kruidnoten</h1>
+                <div class="columns is-centered">
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://www.plus.nl/INTERSHOP/static/WFS/PLUS-Site/-/PLUS/nl_NL/product/L/543115.png" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">Bolletje kruidnoten</span>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://static.ah.nl/dam/product/AHI_43545239383639323337?revLabel=1&rendition=800x800_JPG_Q90&fileType=binary" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">AH Kruidnoten</span>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://static.ah.nl/dam/product/AHI_43545239383838373236?revLabel=1&rendition=800x800_JPG_Q90&fileType=binary" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">AH Bio Kruidnoten</span>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://www.action.com/_next/image/?url=https%3A%2F%2Faction.com%2Fhostedassets%2FCMSArticleImages%2F19%2F78%2F2526671_8710226273707-111_01_20221004151336.png&w=640&q=75" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">Knapperige Kruidnoten</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  Speciaal -->
+        <section id="speciaal">
+            <div class="container">
+                <h1 class="title is-3 has-text-centered">Speciale kruidnoten</h1>
+                <div class="columns is-centered">
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTt-lZPhcbjShpHGXSLUuePY738IZWUJPkdIvBfQWk4HWBaTXFeO1-Lb35-bafAKMNONs&usqp=CAU" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">Appeltaart Kruidnoten</span>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://static-images.jumbo.com/product_images/121020211033_443413ZK-1_360x360_2.png" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">Bastogne Kruidnoten</span>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://static.ah.nl/dam/product/AHI_43545239383839363238?revLabel=1&rendition=800x800_JPG_Q90&fileType=binary" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">Truffel Kruidnoten</span>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img src="https://static.ah.nl/dam/product/AHI_43545239383931353039?revLabel=3&rendition=800x800_JPG_Q90&fileType=binary" alt="Melton Hill Lake">
+                            </figure>
+                            <span class="is-size-4">Stroopwafel Kruidnoten</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  Footer section -->
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Shopper webbie</strong> by <a href="https://github.com/BoyK99">Boy Kik</a>.
+                    The website was made for the Hackathon - 9 nov 2022</a>.
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
